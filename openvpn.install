@@ -1,0 +1,6 @@
+#!/bin/sh
+
+post_install() {
+	/usr/bin/pacopts applytmp
+}
+
