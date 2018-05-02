@@ -5,7 +5,7 @@
 #						Contributor: Christian Hesse <mail@eworm.de>
 
 pkgname=openvpn
-pkgver=2.4.5
+pkgver=2.4.6
 pkgrel=2
 pkgdesc='An easy-to-use, robust and highly configurable VPN (Virtual Private Network)'
 arch=(x86_64)
@@ -18,7 +18,7 @@ install=openvpn.install
 license=('custom')
 source=("https://swupdate.openvpn.net/community/releases/openvpn-${pkgver}.tar.xz"
 		openvpn.conf)
-sha256sums=('43c0a363a332350f620d1cd93bb431e082bedbc93d4fb872f758650d53c1d29e'
+sha256sums=('4f6434fa541cc9e363434ea71a16a62cf2615fb2f16af5b38f43ab5939998c26'
             '407217c63b3ba5abaecaaa01ac655a8c9a0dbe754f581389b7ac99d922c3bc6c')
 
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
